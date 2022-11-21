@@ -66,7 +66,7 @@
     </section>
     <!-- Contact -->
     <ContentDoc path="/contact" v-slot="{ doc }">
-      <section id="cont" class="pb-24 relative bg-background">
+      <section id="contact" class="pb-24 relative bg-background">
         <div
           bgImage
           :style="{ backgroundImage: 'url(' + doc.image + ')' }"
