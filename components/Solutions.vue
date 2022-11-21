@@ -11,7 +11,7 @@
         :style="{ backgroundImage: 'url(' + solution.image + ')' }"
         class="px-2 py-1 bg-cover bg-center aspect-video flex rounded-mjo"
       >
-        <h4>{{ solution.title }}</h4>
+        <h4>{{ solution.header }}</h4>
       </div>
     </template>
   </div>

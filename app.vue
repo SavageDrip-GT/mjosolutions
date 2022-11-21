@@ -1,6 +1,14 @@
 <template>
   <div>
-    <HeadDef />
+    <Head>
+      <Title>MJO Mortgage Solutions</Title>
+    </Head>
     <NuxtPage />
   </div>
 </template>
+
+<script setup>
+useHead({
+  title: "About Us - Fred St.",
+});
+</script>
