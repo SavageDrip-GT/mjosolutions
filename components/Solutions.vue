@@ -10,8 +10,8 @@
         <div
           bgImage
           :style="{ backgroundImage: 'url(' + solution.image + ')' }"
-          class="px-2 py-1 bg-cover bg-center aspect-video flex rounded-mjo"
-        ></div>
+          class="px-2 py-1 bg-cover bg-center aspect-video flex rounded-mjo drop-shadow-xl"
+        />
         <h4>{{ solution.header }}</h4>
       </div>
     </template>
