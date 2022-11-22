@@ -2,8 +2,13 @@
   <header>
     <div class="container">
       <nav>
-        <NuxtLink to="/" class="h-12 md:h-16">
-          <LogoStacked />
+        <NuxtLink to="/">
+          <!-- <LogoStacked /> -->
+          <img
+            src="/images/mjo-logo.png"
+            alt="MJO Mortgage Solutions"
+            class="h-10 sm:h-12 w-auto pb-3"
+          />
         </NuxtLink>
         <NavBar class="hidden md:flex flex-1 justify-end" />
         <div class="flex flex-1 justify-end md:hidden">

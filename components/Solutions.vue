@@ -6,11 +6,12 @@
       v-for="solution of solutions"
       :key="solution.slug"
     >
-      <div
-        bgImage
-        :style="{ backgroundImage: 'url(' + solution.image + ')' }"
-        class="px-2 py-1 bg-cover bg-center aspect-video flex rounded-mjo"
-      >
+      <div>
+        <div
+          bgImage
+          :style="{ backgroundImage: 'url(' + solution.image + ')' }"
+          class="px-2 py-1 bg-cover bg-center aspect-video flex rounded-mjo"
+        ></div>
         <h4>{{ solution.header }}</h4>
       </div>
     </template>

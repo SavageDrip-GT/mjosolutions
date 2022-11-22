@@ -1,5 +1,5 @@
 ---
 title: MJO Mortgage Solutions
-header: Fulltime, part time and casual workers
+header: First Home Buyers
 image: https://2dbags.co/wp-content/uploads/revslider/lookbook3-demo_slider/placeholder.jpg
 ---

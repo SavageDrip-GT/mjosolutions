@@ -17,7 +17,7 @@
     @apply h-16 flex justify-center align-middle pt-4 z-50;
   }
   nav {
-    @apply max-w-6xl flex items-center py-3 border border-t-0 border-primary px-6 rounded-mjo rounded-t-none bg-background bg-opacity-80;
+    @apply max-w-6xl flex items-center py-3 border border-t-0 border-primary px-3 sm:px-6 rounded-mjo rounded-t-none bg-background bg-opacity-80;
   }
   section {
     @apply w-screen flex justify-end items-end;
@@ -44,7 +44,7 @@
     @apply font-display font-medium text-lg sm:text-2xl text-center sm:text-left uppercase leading-snug sm:leading-8 text-background mb-auto;
   }
   h4 {
-    @apply text-sm font-light leading-tight w-full bg-background rounded-mjo text-center p-1 mt-auto;
+    @apply text-background text-center font-bold uppercase leading-tight w-full mt-2;
   }
   h5 {
     @apply text-center sm:text-left;
@@ -53,10 +53,10 @@
 
 @layer components {
   .nav-item {
-    @apply font-medium text-3xl md:text-base m-0 p-0 leading-none trans;
+    @apply font-medium text-2xl md:text-base m-0 p-0 leading-none trans;
   }
   .call-button {
-    @apply text-xl md:text-base text-background bg-primary hover:bg-background rounded-full px-4 py-1;
+    @apply text-xl md:text-base text-background bg-primary hover:bg-background rounded-full px-3 py-1;
   }
   .rounded-mjo {
     @apply rounded-xl;
@@ -71,7 +71,7 @@
     @apply h-full rounded-mjo bg-primary border border-primary p-6 w-full bg-opacity-80 backdrop-blur;
   }
   .icon-sm {
-    @apply h-24 mt-4 mb-6 w-full sm:w-auto;
+    @apply h-24 mt-4 mb-6 w-full;
   }
   .trans {
     @apply transition duration-300 ease-in-out;

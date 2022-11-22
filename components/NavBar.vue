@@ -4,9 +4,9 @@
       <a href="#intro" class="active nav-item">Home</a>
     </li>
     <li>
-      <a href="#contact" class="nav-item">Contact</a>
+      <a href="#contact" class="nav-item call-button">Contact</a>
     </li>
-    <li class="mt-4 md:mt-0 block md:hidden">
+    <!-- <li class="mt-4 md:mt-0 block md:hidden">
       <a
         href="tel:61-401-160-779"
         target="_blank"
@@ -14,6 +14,6 @@
       >
         Call Us</a
       >
-    </li>
+    </li> -->
   </ul>
 </template>
