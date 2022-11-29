@@ -1,10 +1,22 @@
 <template>
   <ul class="flex gap-6 text-center flex-col md:flex-row">
     <li>
-      <a href="#intro" class="nav-item">Home</a>
+      <NuxtLink to="/about" class="nav-item">Home</NuxtLink>
     </li>
     <li>
-      <a href="#contact" class="nav-item call-button">Contact</a>
+      <NuxtLink to="/faq" class="nav-item">FAQ</NuxtLink>
+    </li>
+    <li>
+      <NuxtLink to="/lenders" class="nav-item">Lenders</NuxtLink>
+    </li>
+    <li>
+      <a href="/about/#contact" class="nav-item call-button">Contact</a>
     </li>
   </ul>
 </template>
+
+<style scoped>
+.router-link-active {
+  @apply text-primary font-bold;
+}
+</style>

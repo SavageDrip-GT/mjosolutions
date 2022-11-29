@@ -1,6 +1,5 @@
 <template>
   <NuxtLayout>
-    <Header />
     <!-- Intro -->
     <FadeUp>
       <section id="intro" class="intro h-[calc(100vh-150px)]">
@@ -12,7 +11,7 @@
         </div>
       </section>
       <!-- Solutions Cards -->
-      <section id="solutions" class="mb-16 sm:mb-24 split">
+      <section id="solutions" class="pb-16 sm:pb-24 split">
         <div class="container">
           <div class="card">
             <Solutions class="card" />
@@ -21,7 +20,7 @@
       </section>
     </FadeUp>
     <!-- What -->
-    <section class="mb-16 sm:mb-24">
+    <section class="pb-16 sm:pb-24 bg-white">
       <FadeUp class="container grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8">
         <ContentDoc path="/what" v-slot="{ doc }">
           <h1 class="mb-auto">{{ doc.header }}</h1>
@@ -34,7 +33,7 @@
       </FadeUp>
     </section>
     <!-- Commitment Cards -->
-    <section id="commitment">
+    <section id="commitment" class="bg-white">
       <FadeUp
         class="container card-grid-mjo grid-cols-1 sm:grid-cols-3 z-20 pb-16 sm:pb-24"
       >

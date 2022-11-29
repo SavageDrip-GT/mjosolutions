@@ -10,6 +10,6 @@
 
 <script setup>
 useHead({
-  title: "About Us - Fred St.",
+  title: "MJO Mortgage Solutions",
 });
 </script>

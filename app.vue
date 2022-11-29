@@ -6,9 +6,3 @@
     <NuxtPage />
   </div>
 </template>
-
-<script setup>
-useHead({
-  title: "About Us - Fred St.",
-});
-</script>
