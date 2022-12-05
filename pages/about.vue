@@ -69,7 +69,7 @@
         <div
           bgImage
           :style="{ backgroundImage: 'url(' + doc.image + ')' }"
-          class="bg-cover h-screen w-screen absolute -top-80 z-0 border-b border-primary"
+          class="bg-cover h-full w-screen absolute -top-80 z-0 border-primary"
         />
         <div class="container">
           <FadeUp class="card h-fit bg-background bg-opacity-80 pt-10">
@@ -80,7 +80,7 @@
             <iframe
               src="https://www.cognitoforms.com/f/6Ax0zmUI6UeB6_7JUBHcjA/18"
               style="border: 0; width: 100%"
-              class="flex justify-center w-full mx-auto h-96"
+              class="flex justify-center w-full mx-auto h-196"
             >
             </iframe>
           </FadeUp>

@@ -4,10 +4,10 @@
       <NuxtLink to="/about" class="nav-item">Home</NuxtLink>
     </li>
     <li>
-      <NuxtLink to="/faq" class="nav-item">FAQ</NuxtLink>
+      <NuxtLink to="/lenders" class="nav-item">Lenders</NuxtLink>
     </li>
     <li>
-      <NuxtLink to="/lenders" class="nav-item">Lenders</NuxtLink>
+      <NuxtLink to="/faq" class="nav-item">FAQ</NuxtLink>
     </li>
     <li>
       <a href="/about/#contact" class="nav-item call-button">Contact</a>
