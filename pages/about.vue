@@ -5,9 +5,7 @@
       <section id="intro" class="intro h-[calc(100vh-150px)]">
         <div class="container pt-12 grid grid-cols-1 sm:grid-cols-2">
           <ContentDoc path="/intro" v-slot="{ doc }" />
-          <IconIntro
-            class="intro-icon row-start-1 sm:row-start-auto mb-10 sm:mb-0"
-          />
+          <img src="/icons/broker-works.svg" class="icon" />
         </div>
       </section>
       <!-- Solutions Cards -->
