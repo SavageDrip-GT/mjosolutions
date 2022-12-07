@@ -40,7 +40,7 @@
         <!-- Card -->
         <div class="card">
           <ContentDoc path="/comcards/commit" v-slot="{ doc }">
-            <IconCommit class="icon-sm" />
+            <img src="/icons/our-commitment.svg" class="icon" />
             <h2>{{ doc.header }}</h2>
             <ContentRenderer :value="doc" />
           </ContentDoc>
@@ -48,7 +48,7 @@
         <!-- Card -->
         <div class="card">
           <ContentDoc path="/comcards/why" v-slot="{ doc }">
-            <IconWhy class="icon-sm" />
+            <img src="/icons/broker-free.svg" class="icon" />
             <h2>{{ doc.header }}</h2>
             <ContentRenderer :value="doc" />
           </ContentDoc>
@@ -56,7 +56,7 @@
         <!-- Card -->
         <div class="card">
           <ContentDoc path="/comcards/where" v-slot="{ doc }">
-            <IconWhere class="icon-sm" />
+            <img src="/icons/where.svg" class="icon" />
             <h2>{{ doc.header }}</h2>
             <ContentRenderer :value="doc" />
           </ContentDoc>

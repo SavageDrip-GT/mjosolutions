@@ -10,7 +10,7 @@
         <div
           bgImage
           :style="{ backgroundImage: 'url(' + solution.image + ')' }"
-          class="px-2 py-1 bg-cover bg-center aspect-video flex rounded-mjo drop-shadow-xl"
+          class="px-2 py-1 bg-no-repeat bg-center bg-contain aspect-video"
         />
         <h2 class="text-base mt-4 mb-0">{{ solution.header }}</h2>
       </div>
