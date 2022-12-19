@@ -1,6 +1,6 @@
 ---
 title: Lender
-image: /images/lenders/transFMC_logoWhite.png
+image: /images/lenders/transFMC_logoBlack.png
 ---
 
 #

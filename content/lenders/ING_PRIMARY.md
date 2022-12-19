@@ -1,6 +1,6 @@
 ---
 title: Lender
-image: /images/lenders/ING_Impact_Logo_RGB_crop.png
+image: /images/lenders/ING_PRIMARY-LOGO_COLOUR_RGB.png
 ---
 
 #

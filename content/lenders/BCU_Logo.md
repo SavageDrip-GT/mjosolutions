@@ -1,6 +1,6 @@
 ---
 title: Lender
-image: /images/lenders/BCU_Logo white 644 x 322 px.png
+image: /images/lenders/BCU_Logo no tag_CMYK U - 642 x 322px.jpg
 ---
 
 #
