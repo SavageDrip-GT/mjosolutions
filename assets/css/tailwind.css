@@ -14,7 +14,7 @@
     @apply w-screen min-w-full fixed top-0 z-30;
   }
   footer {
-    @apply h-16 flex justify-center align-middle pt-4 z-50;
+    @apply text-center z-50;
   }
   nav {
     @apply max-w-6xl flex items-center py-3 border border-t-0 border-primary px-3 sm:px-6 rounded-mjo rounded-t-none bg-background bg-opacity-80;
@@ -91,6 +91,9 @@
   }
   .intro-icon {
     @apply mx-auto mt-12 md:mt-0 w-36 sm:w-48 md:w-60 lg:w-72 xl:w-80;
+  }
+  .sosmed {
+    @apply fill-primary hover:fill-secondary w-10 h-10;
   }
 }
 
