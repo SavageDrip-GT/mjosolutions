@@ -81,12 +81,12 @@
         </div>
         <div class="flex col-span-2 justify-center gap-4 h-6 mb-2">
           <img
-            src="images/aboriginal-flag.png"
+            src="/images/aboriginal-flag.png"
             alt="Aboriginal Flag"
             class="rounded"
           />
           <img
-            src="images/torres-str-island-flag.png"
+            src="/images/torres-str-island-flag.png"
             alt="Torres Straight Island Flag"
             class="rounded"
           />
