@@ -11,28 +11,28 @@
               <img
                 src="/images/membership/FBAA.png"
                 alt="FBAA"
-                class="h-8 w-auto ml-auto mb-4"
+                class="h-4 md:h-6 lg:h-8 w-auto ml-auto mb-4"
               />
             </a>
             <a href="https://www.afgonline.com.au/" target="_blank">
               <img
                 src="/images/membership/afg_2021_rgb_reversed_sm.png"
                 alt="AFG"
-                class="h-6 w-auto mx-auto mb-4"
+                class="h-3 md:h-4 lg:h-6 w-auto mx-auto mb-4"
               />
             </a>
             <a href="https://www.afca.org.au/" target="_blank">
               <img
                 src="/images/membership/AFCA_logo_white_lores.png"
                 alt="AFCA"
-                class="h-10 w-auto mr-auto mb-4"
+                class="h-5 md:h-8 lg:h-10 w-auto mr-auto mb-4"
               />
             </a>
           </div>
         </div>
         <div class="border-l-0 md:border-l-2 border-primary">
           <h5 class="uppercase text-primary font-bold mb-4">Follow Us</h5>
-          <div class="flex gap-6 justify-center items-center">
+          <div class="flex gap-4 md:gap-6 justify-center items-center">
             <a
               href="https://www.facebook.com/MJO-Mortgage-Solutions-105146435792036"
               target="_blank"
