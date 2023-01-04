@@ -2,7 +2,7 @@
   <div class="w-screen bg-background">
     <footer class="container">
       <div
-        class="grid grid-cols-1 md:grid-cols-2 pb-4 card bg-background rounded-b-none border-b-0"
+        class="grid grid-cols-1 md:grid-cols-2 pb-2 card bg-background rounded-b-none border-b-0"
       >
         <div class="col-span-2 md:col-span-1">
           <h5 class="uppercase text-primary font-bold mb-4">Membership</h5>
@@ -32,7 +32,7 @@
         </div>
         <div class="border-l-0 md:border-l-2 border-primary">
           <h5 class="uppercase text-primary font-bold mb-4">Follow Us</h5>
-          <div class="flex gap-6 justify-center">
+          <div class="flex gap-6 justify-center items-center">
             <a
               href="https://www.facebook.com/MJO-Mortgage-Solutions-105146435792036"
               target="_blank"
@@ -40,14 +40,13 @@
             >
               <svg
                 class="sosmed"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
                 width="24px"
                 height="24px"
-                viewBox="0 0 24 24"
-                role="img"
-                xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                  d="M19,3H5C3.895,3,3,3.895,3,5v14c0,1.105,0.895,2,2,2h7.621v-6.961h-2.343v-2.725h2.343V9.309 c0-2.324,1.421-3.591,3.495-3.591c0.699-0.002,1.397,0.034,2.092,0.105v2.43h-1.428c-1.13,0-1.35,0.534-1.35,1.322v1.735h2.7 l-0.351,2.725h-2.365V21H19c1.105,0,2-0.895,2-2V5C21,3.895,20.105,3,19,3z"
                 />
               </svg>
             </a>
@@ -59,18 +58,18 @@
               <svg
                 class="sosmed"
                 xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
                 width="24px"
                 height="24px"
-                viewBox="0 0 260 260"
               >
                 <path
-                  d="M164.58,64H95.42C78.1,64,64,78.1,64,95.42v69.16C64,181.9,78.1,196,95.42,196h69.16c17.32,0,31.42-14.1,31.42-31.42V95.42 C196,78.1,181.9,64,164.58,64z M130,171.1c-22.66,0-41.1-18.44-41.1-41.1s18.44-41.1,41.1-41.1s41.1,18.44,41.1,41.1 S152.66,171.1,130,171.1z M172.22,97.3c-5.3,0-9.6-4.3-9.6-9.61c0-5.3,4.3-9.6,9.6-9.6c5.31,0,9.61,4.3,9.61,9.6 C181.83,93,177.53,97.3,172.22,97.3z M130,102.9c-14.94,0-27.1,12.16-27.1,27.1s12.16,27.1,27.1,27.1s27.1-12.16,27.1-27.1 S144.94,102.9,130,102.9z M130,2C59.31,2,2,59.31,2,130s57.31,128,128,128s128-57.31,128-128S200.69,2,130,2z M210,164.58 c0,25.04-20.38,45.42-45.42,45.42H95.42C70.38,210,50,189.62,50,164.58V95.42C50,70.38,70.38,50,95.42,50h69.16 C189.62,50,210,70.38,210,95.42V164.58z"
+                  d="M 8 3 C 5.239 3 3 5.239 3 8 L 3 16 C 3 18.761 5.239 21 8 21 L 16 21 C 18.761 21 21 18.761 21 16 L 21 8 C 21 5.239 18.761 3 16 3 L 8 3 z M 18 5 C 18.552 5 19 5.448 19 6 C 19 6.552 18.552 7 18 7 C 17.448 7 17 6.552 17 6 C 17 5.448 17.448 5 18 5 z M 12 7 C 14.761 7 17 9.239 17 12 C 17 14.761 14.761 17 12 17 C 9.239 17 7 14.761 7 12 C 7 9.239 9.239 7 12 7 z M 12 9 A 3 3 0 0 0 9 12 A 3 3 0 0 0 12 15 A 3 3 0 0 0 15 12 A 3 3 0 0 0 12 9 z"
                 />
               </svg>
             </a>
           </div>
         </div>
-        <div class="col-span-2 mt-8">
+        <div class="col-span-2 mt-4">
           <p class="text-sm font-light text-white text-center">
             We acknowledge the Traditional Owners of the land where we work and
             live. We pay our respects to Elders past, present and emerging. We
@@ -79,7 +78,7 @@
             live on this land.
           </p>
         </div>
-        <div class="flex col-span-2 justify-center gap-4 h-6 mb-2">
+        <div class="flex col-span-2 justify-center gap-4 h-5 mb-2">
           <img
             src="/images/aboriginal-flag.png"
             alt="Aboriginal Flag"
