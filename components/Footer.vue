@@ -2,9 +2,9 @@
   <div class="w-screen bg-background">
     <footer class="container">
       <div
-        class="grid grid-cols-2 pb-4 card bg-background rounded-b-none border-b-0"
+        class="grid grid-cols-1 md:grid-cols-2 pb-4 card bg-background rounded-b-none border-b-0"
       >
-        <div class="flex flex-col justify-center">
+        <div class="col-span-2 md:col-span-1">
           <h5 class="uppercase text-primary font-bold mb-4">Membership</h5>
           <div class="flex items-center justify-evenly">
             <a href="https://www.fbaa.com.au/" target="_blank">
@@ -30,7 +30,7 @@
             </a>
           </div>
         </div>
-        <div class="border-l-2 border-primary">
+        <div class="border-l-0 md:border-l-2 border-primary">
           <h5 class="uppercase text-primary font-bold mb-4">Follow Us</h5>
           <div class="flex gap-6 justify-center">
             <a
