@@ -93,7 +93,7 @@
     @apply mx-auto mt-12 md:mt-0 w-36 sm:w-48 md:w-60 lg:w-72 xl:w-80;
   }
   .sosmed {
-    @apply fill-primary hover:fill-secondary w-10 h-10;
+    @apply fill-white hover:fill-primary w-10 h-10;
   }
 }
 

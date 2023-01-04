@@ -1,30 +1,38 @@
 <template>
   <div class="w-screen bg-background">
     <footer class="container">
-      <div class="grid grid-cols-2 pb-8">
+      <div
+        class="grid grid-cols-2 pb-4 card bg-background rounded-b-none border-b-0"
+      >
         <div class="flex flex-col justify-center">
           <h5 class="uppercase text-primary font-bold mb-4">Membership</h5>
-          <div class="flex items-center">
-            <img
-              src="/icons/FBAA.png"
-              alt="FBAA"
-              class="h-8 w-auto ml-auto mb-4"
-            />
-            <img
-              src="/icons/afg_2021_rgb_reversed_sm.png"
-              alt="AFG"
-              class="h-6 w-auto mx-auto mb-4"
-            />
-            <img
-              src="/icons/AFCA_logo_white_lores.png"
-              alt="AFCA"
-              class="h-10 w-auto mr-auto mb-4"
-            />
+          <div class="flex items-center justify-evenly">
+            <a href="https://www.fbaa.com.au/" target="_blank">
+              <img
+                src="/images/membership/FBAA.png"
+                alt="FBAA"
+                class="h-8 w-auto ml-auto mb-4"
+              />
+            </a>
+            <a href="https://www.afgonline.com.au/" target="_blank">
+              <img
+                src="/images/membership/afg_2021_rgb_reversed_sm.png"
+                alt="AFG"
+                class="h-6 w-auto mx-auto mb-4"
+              />
+            </a>
+            <a href="https://www.afca.org.au/" target="_blank">
+              <img
+                src="/images/membership/AFCA_logo_white_lores.png"
+                alt="AFCA"
+                class="h-10 w-auto mr-auto mb-4"
+              />
+            </a>
           </div>
         </div>
-        <div>
+        <div class="border-l-2 border-primary">
           <h5 class="uppercase text-primary font-bold mb-4">Follow Us</h5>
-          <div class="flex gap-4 justify-center">
+          <div class="flex gap-6 justify-center">
             <a
               href="https://www.facebook.com/MJO-Mortgage-Solutions-105146435792036"
               target="_blank"
@@ -62,44 +70,54 @@
             </a>
           </div>
         </div>
-      </div>
-      <div>
-        <p class="text-xs font-light text-primary text-center">
-          We acknowledge the Traditional Owners of the land where I/we work and
-          live. We pay our respects to Elders past, present and emerging. We
-          celebrate the stories, culture and traditions of Aboriginal and Torres
-          Strait Islander Elders of all communities who also work and live on
-          this land. ABN: 61 921 877 088 |Credit Representative Number: 541 627
-          | Website by General Technical 2022
-        </p>
-      </div>
-      <div class="flex flex-row gap-2 items-center h-full justify-center py-8">
-        <p class="text-xs text-primary border-r-2 pr-2">
-          <span class="font-bold">ABN: </span>
-          61 921 877 088
-        </p>
-        <p class="text-xs text-primary border-r-2 pr-2">
-          <span class="font-bold">Credit Representative Number: </span>
-          541 627
-        </p>
-        <p class="font-bold text-xs text-primary">
-          &copy; <span class="font-bold">2022</span>
-        </p>
-        <div class="flex my-auto">
-          <p class="font-light text-xs uppercase">
-            <a
-              href="https://generaltechnical.com.au"
-              target="_blank"
-              class="text-xs font-light text-primary hover:font-normal trans"
-            >
-              General Technical
-            </a>
+        <div class="col-span-2 mt-8">
+          <p class="text-sm font-light text-white text-center">
+            We acknowledge the Traditional Owners of the land where we work and
+            live. We pay our respects to Elders past, present and emerging. We
+            celebrate the stories, culture and traditions of Aboriginal and
+            Torres Strait Islander Elders of all communities who also work and
+            live on this land.
           </p>
+        </div>
+        <div class="flex col-span-2 justify-center gap-4 h-6 mb-2">
+          <img
+            src="images/aboriginal-flag.png"
+            alt="Aboriginal Flag"
+            class="rounded"
+          />
+          <img
+            src="images/torres-str-island-flag.png"
+            alt="Torres Straight Island Flag"
+            class="rounded"
+          />
+        </div>
+        <div
+          class="flex flex-row gap-2 items-center h-full justify-center pt-4 col-span-2"
+        >
+          <p class="text-xs text-primary border-r-2 pr-2">
+            <span class="font-bold">ABN: </span>
+            61 921 877 088
+          </p>
+          <p class="text-xs text-primary border-r-2 pr-2">
+            <span class="font-bold">Credit Representative Number: </span>
+            541 627
+          </p>
+          <p class="font-bold text-xs text-primary">
+            &copy; <span class="font-bold">2022</span>
+          </p>
+          <div class="flex my-auto">
+            <p class="font-light text-xs uppercase">
+              <a
+                href="https://generaltechnical.com.au"
+                target="_blank"
+                class="text-xs font-light text-primary hover:font-normal trans"
+              >
+                General Technical
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
   </div>
 </template>
-
-ABN: 61 921 877 088 |Credit Representative Number: 541 627 | Website by General
-Technical 2022
