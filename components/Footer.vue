@@ -91,13 +91,13 @@
           />
         </div>
         <div
-          class="flex flex-row gap-2 items-center h-full justify-center pt-4 col-span-2"
+          class="flex flex-col md:flex-row md:gap-2 items-center h-full justify-center pt-4 col-span-2"
         >
-          <p class="text-xs text-primary border-r-2 pr-2">
+          <p class="text-xs text-primary md:border-r-2 pr-2">
             <span class="font-bold">ABN: </span>
             61 921 877 088
           </p>
-          <p class="text-xs text-primary border-r-2 pr-2">
+          <p class="text-xs text-primary md:border-r-2 pr-2">
             <span class="font-bold">Credit Representative Number: </span>
             541 627
           </p>
