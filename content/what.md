@@ -1,5 +1,5 @@
 ---
-header: "What we do to help you:"
+header: What we do to help you
 subhead: At MJO Mortgage Solutions, we’ll discuss what is important to you so we can get a detailed picture of what you need from a loan.
 image:
 ---

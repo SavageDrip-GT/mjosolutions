@@ -44,7 +44,7 @@
     @apply font-display font-medium text-lg sm:text-2xl text-center sm:text-left uppercase leading-snug sm:leading-8 text-background mb-auto;
   }
   h4 {
-    @apply mb-2;
+    @apply mb-2 text-xl text-primary text-left font-bold uppercase w-full mt-5;
   }
   h4 a {
     @apply pointer-events-none text-xl text-primary text-center font-bold uppercase w-full;
@@ -53,7 +53,7 @@
     @apply text-center mb-2;
   }
   h6 {
-    @apply text-left mb-4;
+    @apply text-left mb-2;
   }
 }
 
