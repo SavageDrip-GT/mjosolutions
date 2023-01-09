@@ -3,7 +3,7 @@
     <section id="faq" class="min-h-screen py-24 sm:py-36">
       <FadeUp class="container">
         <h2 class="text-primary text-center">
-          Why talk to 40 different banks when you can talk to the team at MJO
+          Why talk to 40 different banks when you can speak to the team at MJO
           Mortgage Solutions.
         </h2>
         <h4 class="mb-8 text-center text-white">
