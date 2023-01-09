@@ -41,7 +41,7 @@
         class="container card-grid-mjo grid-cols-1 sm:grid-cols-3 z-20 pb-16 sm:pb-24"
       >
         <!-- Card -->
-        <div class="card">
+        <div class="card pt-0">
           <ContentDoc path="/comcards/commit" v-slot="{ doc }">
             <img src="/icons/our-commitment.svg" class="icon" />
             <h2>{{ doc.header }}</h2>
@@ -49,7 +49,7 @@
           </ContentDoc>
         </div>
         <!-- Card -->
-        <div class="card">
+        <div class="card pt-0">
           <ContentDoc path="/comcards/why" v-slot="{ doc }">
             <img src="/icons/broker-free.svg" class="icon" />
             <h2>{{ doc.header }}</h2>
@@ -57,7 +57,7 @@
           </ContentDoc>
         </div>
         <!-- Card -->
-        <div class="card">
+        <div class="card pt-0">
           <ContentDoc path="/comcards/where" v-slot="{ doc }">
             <img src="/icons/where.svg" class="icon" />
             <h2>{{ doc.header }}</h2>
