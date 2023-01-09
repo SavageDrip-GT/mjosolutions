@@ -3,9 +3,14 @@
     <!-- Intro -->
     <FadeUp>
       <section id="intro" class="intro h-[calc(100vh-150px)]">
-        <div class="container pt-12 grid grid-cols-1 sm:grid-cols-2">
+        <div
+          class="container items-start pt-12 grid grid-cols-1 sm:grid-cols-2"
+        >
           <ContentDoc path="/intro" v-slot="{ doc }" />
-          <img src="/icons/broker-works.svg" class="icon" />
+          <img
+            src="/icons/broker-works-2.svg"
+            class="icon px-12 row-start-1 col-start-1 sm:col-start-2 mb-8 sm:mb-0"
+          />
         </div>
       </section>
       <!-- Solutions Cards -->
