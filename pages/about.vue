@@ -9,7 +9,7 @@
           <ContentDoc path="/intro" v-slot="{ doc }" />
           <img
             src="/icons/broker-works-2.svg"
-            class="icon px-12 row-start-1 col-start-1 sm:col-start-2 mb-8 sm:mb-0"
+            class="icon px-12 lg:px-24 row-start-1 col-start-1 sm:col-start-2 mb-8 sm:mb-0"
           />
         </div>
       </section>
