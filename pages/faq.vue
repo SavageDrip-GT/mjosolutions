@@ -7,22 +7,21 @@
           <div>
             <h4>What is a mortgage broker?</h4>
             <p>
-              A mortgage broker acts as a middleman that connects you to a
-              lender. They evaluate your financial situation and capacity to
-              borrow before presenting you with a selection of possible home
-              loans that best suits your needs.
+              A mortgage broker is a finance professional that connects you to a lender. 
+              They evaluate your financial situation and capacity to borrow before presenting
+              you with a selection of possible loans tailored to suit your needs.
             </p>
             <h4>Why use a mortgage broker?</h4>
             <p>
-              A Mortgage Broker can access hundreds of options from over 25
-              banks and lenders and negotiate on your behalf to get you the best
-              rate possible. Banks can only offer their products.
+              A Mortgage Broker can access hundreds of options from over 40+ lenders and 
+              negotiate on your behalf to get you the best interest rate possible, 
+              whereas banks can only offer their products. 
             </p>
             <h4>How much does a mortgage broker cost?</h4>
             <p>Nothing! It's a free service.</p>
             <p>
-              From initial discussions through to the settlement, a Mortgage
-              Broker's services are free!
+              A Mortgage Broker's services are free from initial discussions 
+              through to the settlement!
             </p>
             <h4>How do Mortgage Brokers get paid?</h4>
             <p>
@@ -32,9 +31,7 @@
             <h4>Are you available after hours and weekends?</h4>
             <p>Yes!</p>
             <p>
-              Being a mobile brokerage, We can connect with you at a time and
-              location most convenient to you inside and outside of regular
-              business hours.
+              We can connect with you at a time and location most convenient to you. Seven days a week. 
             </p>
             <h4>How much can I borrow?</h4>
             <p>
